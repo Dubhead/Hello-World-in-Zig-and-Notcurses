@@ -1,0 +1,22 @@
+== Hello World in Zig and Notcurses
+
+=== Environment / Requirement
+
+- Linux (tested on Fedora 35 Workstation)
+- Zig compiler (0.9.0-dev.1815+20e19e75f)
+- Notcurses (2.4.9)
+
+=== How to Run
+
+Make sure you have Notcurses development library.
+For Fedora:
+
+----
+$ sudo dnf install notcurses-devel
+----
+
+Then compile and run:
+
+----
+$ zig build run
+----
